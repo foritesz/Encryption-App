@@ -11,7 +11,7 @@ open WebSharper.Forms
 [<JavaScript>]
 module Client =
 
-    // Function to shuffle an F# list
+    // Function to shuffle an list
     let shuffle (list: 'a list) : 'a list =
         let rng = Random()
         let array = List.toArray list
@@ -36,11 +36,11 @@ module Client =
         |> List.map string
         |> String.concat ""
 
-    // Function to save the encryption key (for demo purposes, we'll just return the key as a string)
+    // Function to save the encryption key
     let saveKey () : string =
         displayKey()
 
-    // Function to load an encryption key (for demo purposes, we assume a valid key is provided)
+    // Function to load an encryption key
     let loadKey (key: string) =
         key
         |> Seq.map char
@@ -49,7 +49,7 @@ module Client =
         |> List.fold (fun (cl, kl) (c, k) -> (cl @ [c], kl @ [k])) ([], [])
         |> fun (cl, kl) -> (charsList <- cl; keyList <- kl)
 
-    // Encrypt function using F# list
+    // Encrypt function using 
     let encrypt (plainText: string): string =
         plainText
         |> Seq.map (fun letter ->
@@ -59,7 +59,7 @@ module Client =
         |> Array.map string
         |> String.concat ""
 
-    // Decrypt function using F# list
+    // Decrypt function using
     let decrypt (cipherText: string): string =
         cipherText
         |> Seq.map (fun letter ->

@@ -8,20 +8,20 @@
     <script type="module" src="Content/encrypt2.js"></script> <!-- Ensure this path is correct -->
     <style>
         html, body {
-            height: 100%; /* Biztosítja, hogy az html és a body elemek kiterjedjenek a teljes elérhető magasságra */
-            margin: 0; /* Eltávolít minden alapértelmezett margót */
-            padding: 0; /* Eltávolít minden alapértelmezett paddingot */
+            height: 100%;
+            margin: 0;
+            padding: 0;
         }
 
         body {
             background-color: #5752c8;
             background-image:url("encrypt.png");
-            background-size: cover; /* Ez a beállítás biztosítja, hogy a kép teljes mértékben kitöltse a háttér területét. */
-            background-position: center; /* Középre igazítja a képet. */
-            background-repeat: no-repeat; /* A kép nem ismétlődik. */
-            background-attachment: fixed; /* A háttérkép rögzítve lesz, nem gördül el az oldal tartalmával. */
-            position: relative; /* Relatív pozicionálás a pszeudo-elemek helyes működéséhez */
-            margin-bottom: 60px; /* Hely a footer számára. */
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            position: relative;
+            margin-bottom: 60px;
         }
 
         h1{
@@ -29,7 +29,7 @@
         }
 
         .form-control {
-            border-radius: 0; /* Téglalap alakú input mezők */
+            border-radius: 0;
             background-color: #4928997d;
             border: none;
             color: white;
@@ -39,58 +39,58 @@
             background-color: #663bcc7d;
             color: white;
         }
-        /*Regisztráció/Bejelentkezés*/
+        
         .auth-container {
             margin: 20px;
             width: 500px;
-            max-width: 100%; /* Reszponzív design miatt */
+            max-width: 100%;
             height: 500px;
-            margin: 70px auto; /* Középre igazítás */
+            margin: 70px auto;
             display: flex;
             flex-direction: column;
-            justify-content: center; /* Függőleges középre igazítás */
+            justify-content: center;
             color: #fff;
         }
 
         .form-group {
-            margin-bottom: 10px; /* Kisebb margók az űrlapban */
+            margin-bottom: 10px;
         }
 
         .auth-form {
-            margin-bottom: 20px; /* Elválasztás a két űrlap között */
+            margin-bottom: 20px;
         }
 
         .centered-forms {
-            position: fixed; /* Vagy használhatod a position: absolute; beállítást is. */
+            position: fixed;
             top: 50%;
             left: 50%;
             transform: translate(-50%, -50%);
             width: 900px;
             height: 700px;
             max-width: 100%;
-            box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Egy kis árnyékhatás. */
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
             background-color: #67449966;
             padding: 20px;
             border-radius: 5px;
         }
 
         .form-container {
-            margin-bottom: 30px; /* Szeparálás a bejelentkezési és regisztrációs formok között. */
+            margin-bottom: 30px;
         }
 
         .auth-form h2 {
-            text-align: center; /* Címek középre igazítása. */
+            text-align: center;
             margin-bottom: 20px;
         }
 
         .auth-container button {
-            background-color: #5915aa; /* Gombok háttérszíne */
+            background-color: #5915aa;
             margin: 10px 10px 2px 0;
-            color: white; /* Gombok szövegszíne */
+            color: white;
         }
 
         .auth-container button:hover {
-            background-color: #7833ca; /* Gombok háttérszínének változása egér fölött */
+            background-color: #7833ca;
         }
     </style>
 </head>
