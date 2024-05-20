@@ -19,8 +19,9 @@ The motivation behind this project is to provide a practical example of how F# a
 - **Decryption**: Decode messages using the same character list.
 - **Key Management**: Save and load encryption keys.
 - **Encryption Modes**: Support for reverse encryption and case-sensitive encryption.
-- 
-  ![encrypt_readme](https://github.com/foritesz/Encryption-App/assets/144954656/83a77052-322b-4b4d-bdc4-3c52d62d0eec)
+
+
+ ![encrypt_readme](https://github.com/foritesz/Encryption-App/assets/144954656/83a77052-322b-4b4d-bdc4-3c52d62d0eec)
 
 try-live link: https://foritesz.github.io/Encryption-App/
   
