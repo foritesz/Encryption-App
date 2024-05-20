@@ -25,27 +25,8 @@ The motivation behind this project is to provide a practical example of how F# a
 - [.NET SDK](https://dotnet.microsoft.com/download) (at least version 5.0)
 - [WebSharper](https://websharper.com/) (included in the project dependencies)
 
-# Encrypt2
 
-## Project Overview
-
-Encrypt2 is a simple web application developed using F# and WebSharper that allows users to encrypt and decrypt messages using a basic substitution cipher. The application shuffles a list of characters to create an encryption key, which can then be used to encode and decode text. Additionally, the project includes features for key management and multiple encryption modes, such as reverse encryption and case-sensitive encryption.
-
-## Motivation
-
-The motivation behind this project is to provide a practical example of how F# and WebSharper can be used to create interactive web applications. This project demonstrates the following:
-
-- How to use F# for client-side web development.
-- Implementing a basic encryption algorithm.
-- Managing state and user input in a web application.
-- Extending functionality with additional features like key management and different encryption modes.
-
-## Features
-
-- **Encryption**: Encode messages using a shuffled character list.
-- **Decryption**: Decode messages using the same character list.
-- **Key Management**: Save and load encryption keys.
-- **Encryption Modes**: Support for reverse encryption and case-sensitive encryption.
+  ![encrypt_readme](https://github.com/foritesz/Encryption-App/assets/144954656/83a77052-322b-4b4d-bdc4-3c52d62d0eec)
 
 ## How It Works
 
