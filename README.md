@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-Encrypt2 is a simple web application developed using F# and WebSharper that allows users to encrypt and decrypt messages using a basic substitution cipher. The application shuffles a list of characters to create an encryption key, which can then be used to encode and decode text. Additionally, the project includes features for key management and multiple encryption modes, such as reverse encryption and case-sensitive encryption.
+Encryption App is a simple web application developed using F# and WebSharper that allows users to encrypt and decrypt messages using a basic substitution cipher. The application shuffles a list of characters to create an encryption key, which can then be used to encode and decode text. Additionally, the project includes features for key management and multiple encryption modes, such as reverse encryption and case-sensitive encryption.
 
 ## Motivation
 
